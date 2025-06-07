@@ -64,18 +64,6 @@ To identify the key patterns and factors contributing to customer churn, visuali
 
 ---
 
-## 📈 Sample SQL Snippet
-
-```sql
-SELECT 
-    gender,
-    ROUND(SUM(monthly_charge), 2) AS total_revenue
-FROM public_prod
-WHERE churn = 'Yes'
-GROUP BY gender;
-
----
-
 ## 📘 How to Use
 
 1. Open the `.pbix` file in Power BI Desktop.
